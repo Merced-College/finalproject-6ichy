@@ -1,5 +1,5 @@
 /*
- * Author: Richy Manzo
+ * Richy Manzo
  *
  * Algorithm: Moving Average
  *
