@@ -1,8 +1,8 @@
 /*
- * Richy Manzo
- * 2026-04-27
- * This header file defines the StrokeRecorder class, which saves the strokes drawn by the
- * user in a vector.
+    * Richy Manzo
+    * 2026-04-27
+    * This header file defines the StrokeRecorder class, which saves the strokes drawn by the
+    * user in a vector.
 */
 
 #ifndef STROKE_RECORDER_H
@@ -26,7 +26,7 @@ public:
 private:
     vector<Point> currentStroke; // This is the vector of the current stroke.
     vector<vector<Point>> strokes; // This is a nested vector of strokes and points within each stroke.
-    bool isRecording; // This indicates whether the user is currently drawing.
+    bool recording; // This indicates whether the user is currently drawing.
 }
 
 #endif
