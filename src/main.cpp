@@ -12,7 +12,7 @@
 #include <sstream>
 #include "StrokeRecorder.h"
 #include "StrokeFilter.h"
-#include "imageExporter.h"
+#include "ImageExporter.h"
 using namespace std;
 
 // Set the Python canvas dimentions

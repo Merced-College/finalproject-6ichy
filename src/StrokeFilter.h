@@ -16,7 +16,7 @@ public:
     vector<Point> smoothStroke(vector<Point> stroke, int windowSize); 
 
     // This calls smoothStroke for each stroke in the vector of strokes and returns a new vector of smoothed strokes.
-    vector<vector<Point>> smooothAll(vector<vector<Point>> strokes, int windowSize);
+    vector<vector<Point>> smoothAll(vector<vector<Point>> strokes, int windowSize);
 };
 
 #endif

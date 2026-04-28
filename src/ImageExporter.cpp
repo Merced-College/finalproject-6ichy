@@ -5,7 +5,7 @@
  * which exports the smoothed strokes as 28x28 image for neural network input.
  */
 
- #include "imageExporter.h"
+ #include "ImageExporter.h"
  #include <fstream>
  #include <cmath>
 
@@ -15,7 +15,7 @@
     clear();
 
     // Loop through each stroke
-    for (int i = 0; i < smoothedStroked.size(); i++) {
+    for (int i = 0; i < smoothedStrokes.size(); i++) {
 
         // Get the current stroke
         vector<Point> stroke = smoothedStrokes[i];

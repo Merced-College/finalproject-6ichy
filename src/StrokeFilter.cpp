@@ -67,7 +67,7 @@ vector<Point> StrokeFilter::smoothStroke(vector<Point> stroke, int windowSize) {
         smoothedPoint.y = sumY / count; // Average y coordinate.
 
         // Add the smoothed point to the smoothed stroke vector.
-        smoothedStroke.push_back(smoothedPoint);
+        smoothed.push_back(smoothedPoint);
     }
     return smoothed; // Return the new vector of smoothed points.
 }

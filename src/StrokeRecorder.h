@@ -11,7 +11,7 @@
 using namespace std;
 
 
-Struct Point {  // Points in the vector are stored as x and y coordinates.
+struct Point {  // Points in the vector are stored as x and y coordinates.
     int x;
     int y;
 };
@@ -19,7 +19,7 @@ Struct Point {  // Points in the vector are stored as x and y coordinates.
 class StrokeRecorder {
 public:
     void beginStroke(); // This is called when the user presses space to begin a stroke.
-    void addPoint(int x, inty); // This adds the position of the cursor to the current stroke.
+    void addPoint(int x, int y); // This adds the position of the cursor to the current stroke.
     void endStroke(); // This is called when the user presses space to end the stroke.
     vector<vector<Point>> getStrokes() const; // This returns the vector of strokes, and the points within each stroke.
     void clear(); // This clears all the strokes from the vector when user presses C.
@@ -27,6 +27,6 @@ private:
     vector<Point> currentStroke; // This is the vector of the current stroke.
     vector<vector<Point>> strokes; // This is a nested vector of strokes and points within each stroke.
     bool recording; // This indicates whether the user is currently drawing.
-}
+};
 
 #endif

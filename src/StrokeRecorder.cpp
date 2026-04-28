@@ -18,6 +18,8 @@ void StrokeRecorder::addPoint(int x, int y) {
         p.y = y;
         currentStroke.push_back(p); // Add the point to the current stroke vector.
     }
+}
+
 void StrokeRecorder::endStroke() {
     if (recording && !currentStroke.empty()) {
         strokes.push_back(currentStroke); // Add the current stroke to the strokes vector.
@@ -34,6 +36,4 @@ void StrokeRecorder::clear() {
     strokes.clear(); // Clear all strokes and points from the vector.
     currentStroke.clear(); // Clear the current stroke vector.
     recording = false; // Set the recording flag to false.
-}
-
 }

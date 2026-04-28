@@ -29,6 +29,7 @@ private:
 
     // 28x28 grid is stored as a static 2D array, this will not change.
     int grid[28][28];
+    void drawLine(float x0, float y0, float x1, float y1);
 };
 
 #endif
