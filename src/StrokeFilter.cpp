@@ -36,7 +36,7 @@ vector<Point> StrokeFilter::smoothStroke(vector<Point> stroke, int windowSize) {
         return stroke; 
     }
 
-    // Create a ne vector to store smoothed points.
+    // Create a new vector to store smoothed points.
     vector<Point> smoothed;
 
     // Loop through each point in the stroke.

@@ -5,6 +5,7 @@
  * It will read the stroke data from the Python canvas via stdin, and
  * process the data StrokeRecorder, StrokeFilter, and ImageExporter,
  * then saves the result as a 28x28 PGM file.
+ * Compile: g++ -O2 -std=c++17 -o stroke_processor main.cpp StrokeRecorder.cpp StrokeFilter.cpp ImageExporter.cpp
  */
 
 #include <iostream>
