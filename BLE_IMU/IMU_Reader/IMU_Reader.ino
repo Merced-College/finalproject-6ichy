@@ -1,3 +1,8 @@
+/*
+  Flash the BLE with this code then run the serial_reader.cpp 
+  on your computer to read the gyroscope data and forward it as UDP packets.
+*/
+
 #include <Arduino_LSM9DS1.h>
 
 void setup() {
